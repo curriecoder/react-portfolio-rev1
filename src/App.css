@@ -24,6 +24,7 @@ body{
 .header-name{
   position: absolute;
 }
+
 .row{
   max-width: 1140px;
 }
@@ -37,7 +38,6 @@ body{
 
 .card-body{
   padding-bottom: 0;
-  font-weight: bold;
   text-align: center;
   align-items: center;
 }

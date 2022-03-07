@@ -11,7 +11,7 @@ export default function Portfolio() {
     <div className="container">
       <h1>Portfolio</h1>
       <div className="row justify-content-between align-items-center">
-        <div className="card col-4 border border-white mb-3">
+        <div className="card border border-white col-4 mb-5">
           <img src={chessmate} alt="chessmate image" />
           <div className="card-body">
             <p className="card-text">
@@ -30,7 +30,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card col-4 border border-white mb-3">
+        <div className="card border border-white col-4 mb-5">
           <img src={getToWork} alt="get-to-work image" />
           <div className="card-body">
             <p className="card-text">
@@ -53,7 +53,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card col-4 border border-white mb-3">
+        <div className="card border border-white col-4 mb-5">
           <img src={codeQuiz} alt="code-quiz image" />
           <div className="card-body">
             <p className="card-text">
@@ -76,7 +76,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card col-4 border border-white mb-3">
+        <div className="card border border-white col-4 mb-5">
           <img src={weatherForecast} alt="weather-dashboard image" />
           <div className="card-body">
             <p className="card-text">
@@ -99,7 +99,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card col-4 border border-white mb-3">
+        <div className="card border border-white col-4 mb-5">
           <img src={packRat} alt="pack-rat image" />
 
           <div className="card-body">
@@ -123,7 +123,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card col-4 border border-white mb-3">
+        <div className="card border border-white col-4 mb-5">
           <img src={budgetTracker} alt="pwa-budget-tracker image" />
           <div className="card-body">
             <p className="card-text">
