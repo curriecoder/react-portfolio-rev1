@@ -10,8 +10,8 @@ export default function Portfolio() {
   return (
     <div className="container">
       <h1>Portfolio</h1>
-      <div className="row justify-content-between align-content-center">
-        <div className="card col-6 col-sm-12 border border-white mb-3">
+      <div className="row justify-content-between align-items-center">
+        <div className="card col-4 border border-white mb-3">
           <img src={chessmate} alt="chessmate image" />
           <div className="card-body">
             <p className="card-text">
@@ -23,12 +23,14 @@ export default function Portfolio() {
                 Chessmate
               </a>
               <br />
-              <a href="#">Repository</a>
+              <a href="https://github.com/curriecoder/Chessmate"
+                target="_blank"
+                rel="noreferrer">Repository</a>
             </p>
           </div>
         </div>
 
-        <div className="card col-6 col-sm-12 border border-white mb-3">
+        <div className="card col-4 border border-white mb-3">
           <img src={getToWork} alt="get-to-work image" />
           <div className="card-body">
             <p className="card-text">
@@ -51,7 +53,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card col-6 col-sm-12 border border-white mb-3">
+        <div className="card col-4 border border-white mb-3">
           <img src={codeQuiz} alt="code-quiz image" />
           <div className="card-body">
             <p className="card-text">
@@ -74,9 +76,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="w-100"></div>
-
-        <div className="card col-6 col-sm-12 border border-white mb-3">
+        <div className="card col-4 border border-white mb-3">
           <img src={weatherForecast} alt="weather-dashboard image" />
           <div className="card-body">
             <p className="card-text">
@@ -99,7 +99,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card col-6 col-sm-12 border border-white mb-3">
+        <div className="card col-4 border border-white mb-3">
           <img src={packRat} alt="pack-rat image" />
 
           <div className="card-body">
@@ -123,7 +123,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card col-6 col-sm-12 border border-white mb-3">
+        <div className="card col-4 border border-white mb-3">
           <img src={budgetTracker} alt="pwa-budget-tracker image" />
           <div className="card-body">
             <p className="card-text">

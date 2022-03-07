@@ -24,6 +24,9 @@ body{
 .header-name{
   position: absolute;
 }
+.row{
+  max-width: 1140px;
+}
 
 .card{
   padding-top: 1rem;
