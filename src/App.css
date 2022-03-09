@@ -87,11 +87,12 @@ a:hover{
 .card-text>a{
   color: var(--textColorDark);
   background-color: var(--textColor);
-  transition-duration: 1.5s;
+  transition-duration: 1s;
 }
 .card-text>a:hover{
-  color: var(--linkHoverColor);
+  font-weight: 600;
   font-size: larger;
+  text-shadow: 3px 3px 5px lightslategray;
 }
 
 textarea{
