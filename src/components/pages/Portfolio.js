@@ -9,7 +9,7 @@ import budgetTracker from "../../assets/images/pwa-budget-tracker.png";
 export default function Portfolio() {
   return (
     <div className="container">
-      <h1>Portfolio</h1>
+      <h1 className="mb-5">Portfolio</h1>
       <div className="row justify-content-between align-items-center" id="cardContainer">
         <div className="card col-4 mb-5">
           <img className="card-img rounded-top" src={chessmate} alt="chessmate image" />
