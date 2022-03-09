@@ -59,8 +59,8 @@ a:hover{
   padding: 0;
   border: none;
   background-color: var(--textColor);
-  height: 15rem;
-  width: 20rem;
+  height: 20rem;
+  width: 30rem;
 }
 
 .card-body{
