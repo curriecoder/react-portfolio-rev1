@@ -11,9 +11,9 @@ export default function Portfolio() {
     <div className="container">
       <h1>Portfolio</h1>
       <div className="row justify-content-between align-items-center" id="cardContainer">
-        <div className="card border border-white col-4 mb-5">
-          <img src={chessmate} alt="chessmate image" />
-          <div className="card-body">
+        <div className="card col-4 mb-5">
+          <img className="card-img rounded-top" src={chessmate} alt="chessmate image" />
+          <div className="card-body rounded-bottom">
             <p className="card-text">
               <a
                 href="https://mighty-ravine-90150.herokuapp.com/"
@@ -30,9 +30,9 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white col-4 mb-5">
-          <img src={getToWork} alt="get-to-work image" />
-          <div className="card-body">
+        <div className="card col-4 mb-5">
+          <img className="card-img rounded-top" src={getToWork} alt="get-to-work image" />
+          <div className="card-body rounded-bottom">
             <p className="card-text">
               <a
                 href="https://stormy-fortress-72998.herokuapp.com/"
@@ -53,9 +53,9 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white col-4 mb-5">
-          <img src={codeQuiz} alt="code-quiz image" />
-          <div className="card-body">
+        <div className="card col-4 mb-5">
+          <img className="card-img rounded-top" src={codeQuiz} alt="code-quiz image" />
+          <div className="card-body rounded-bottom">
             <p className="card-text">
               <a
                 href="https://curriecoder.github.io/code-quiz/"
@@ -76,9 +76,9 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white col-4 mb-5">
-          <img src={weatherForecast} alt="weather-dashboard image" />
-          <div className="card-body">
+        <div className="card col-4 mb-5">
+          <img className="card-img rounded-top" src={weatherForecast} alt="weather-dashboard image" />
+          <div className="card-body rounded-bottom">
             <p className="card-text">
               <a
                 href="https://curriecoder.github.io/weather-dashboard/"
@@ -99,10 +99,10 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white col-4 mb-5">
-          <img src={packRat} alt="pack-rat image" />
+        <div className="card col-4 mb-5">
+          <img className="card-img rounded-top" src={packRat} alt="pack-rat image" />
 
-          <div className="card-body">
+          <div className="card-body rounded-bottom">
             <p className="card-text">
               <a
                 href="https://nazikbestcoder.github.io/Pack-Rat/"
@@ -123,9 +123,9 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className="card border border-white col-4 mb-5">
-          <img src={budgetTracker} alt="pwa-budget-tracker image" />
-          <div className="card-body">
+        <div className="card col-4 mb-5">
+          <img className="card-img rounded-top" src={budgetTracker} alt="pwa-budget-tracker image" />
+          <div className="card-body rounded-bottom">
             <p className="card-text">
               <a
                 href="https://fierce-dawn-66408.herokuapp.com/"
