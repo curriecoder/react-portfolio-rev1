@@ -10,7 +10,7 @@ export default function Portfolio() {
   return (
     <div className="container">
       <h1>Portfolio</h1>
-      <div className="row justify-content-between align-items-center">
+      <div className="row justify-content-between align-items-center" id="cardContainer">
         <div className="card border border-white col-4 mb-5">
           <img src={chessmate} alt="chessmate image" />
           <div className="card-body">

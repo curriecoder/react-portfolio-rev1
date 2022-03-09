@@ -1,6 +1,9 @@
+/* TODO: Look for a better font */
+
 :root {
   --bgColor: #108194;
-  --textColor: #e7e5e5;
+  --textColor: #e7e5e5e1;
+  --textColorDark: #292929e1;
   --linkHoverColor: #E19627;
 }
 
@@ -11,35 +14,7 @@
 
 body{
   min-height: 100%;
-}
-
-.avatar-img{
-  display: flex;
-  flex-direction: end;
-  position: relative;
-  border-radius: 50%;
-  max-width: 7rem;
-}
-
-.header-name{
-  position: absolute;
-}
-
-.row{
-  max-width: 1140px;
-}
-
-.card{
-  padding-top: 1rem;
-  background-color: var(--bgColor);
-  height: 15rem;
-  width: 20rem;
-}
-
-.card-body{
-  padding-bottom: 0;
-  text-align: center;
-  align-items: center;
+  min-width: 100%;
 }
 
 .nav-item a{
@@ -62,6 +37,46 @@ a {
 
 a:hover{
   color: var(--linkHoverColor);
+}
+
+.avatar-img{
+  display: flex;
+  flex-direction: end;
+  position: relative;
+  border-radius: 50%;
+  max-width: 7rem;
+}
+
+.header-name{
+  position: absolute;
+}
+
+#cardContainer{
+  max-width: 1140px;
+}
+
+.card{
+  padding-top: 1rem;
+  background-color: var(--textColor);
+  height: 15rem;
+  width: 20rem;
+}
+
+.card-body{
+  padding-bottom: 0;
+  background-color: var(--textColor);
+  color: var(--textColorDark);
+  text-align: center;
+  align-items: center;
+}
+
+.card-text{
+  background-color: var(--textColor);
+}
+
+.card-text>a{
+  color: var(--textColorDark);
+  background-color: var(--textColor);
 }
 
 textarea{
