@@ -4,7 +4,7 @@ import resume from "../../assets/images/resume.png";
 export default function Resume() {
   return (
     <div className="container">
-      <h1>Resume/CV</h1>
+      <h1 className="my-2">Resume/CV</h1>
       <div className="row justify-content-center">
         <a
           className="text-center"

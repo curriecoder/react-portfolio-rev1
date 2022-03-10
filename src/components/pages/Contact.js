@@ -39,7 +39,7 @@ export default function Contact() {
 
   return (
     <div className="container">
-      <h1>Contact</h1>
+      <h1 className="my-2">Contact</h1>
       <form className="p-4 p-md-5 border rounded-3">
         <div className="mb-3">
           <input

@@ -16,6 +16,7 @@
 body{
   min-height: 100%;
   min-width: 100%;
+  margin-bottom: 48px;
 }
 
 .no-gutters{
@@ -93,6 +94,7 @@ a:hover{
 
 .card-text{
   background-color: var(--textColor);
+  color: var(--textColorDark);
 }
 
 .card-text>a{
