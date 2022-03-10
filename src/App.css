@@ -18,6 +18,11 @@ body{
   min-width: 100%;
 }
 
+.no-gutters{
+  margin: 0;
+  padding: 0;
+}
+
 .nav-item a{
   color: var(--textColor);
 }
@@ -38,6 +43,12 @@ a {
 
 a:hover{
   color: var(--linkHoverColor);
+}
+
+.header-nameAvatar{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
 }
 
 .avatar-img{
@@ -90,9 +101,8 @@ a:hover{
   transition-duration: 1s;
 }
 .card-text>a:hover{
-  font-weight: 600;
+  font-weight: 550;
   font-size: larger;
-  text-shadow: 3px 3px 5px lightslategray;
 }
 
 textarea{
@@ -111,7 +121,6 @@ textarea{
 
 .footer{
   width: 100%;
-  padding-top: 100px;
 }
 
 .footer-list{

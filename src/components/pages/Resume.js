@@ -6,17 +6,16 @@ export default function Resume() {
     <div className="container">
       <h1>Resume/CV</h1>
       <div className="row justify-content-center">
-        <img className="col-6" src={resume}></img>
-      </div>
-
-      <div className="text-center m-4">
         <a
+          className="text-center"
           href="https://docs.google.com/document/d/1QHnXt5mxQQKwaYkD0Ssa4CHcOxsQ5gnl5K5B2Ppk4Pc/edit?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
           Click here to open in a new window.
         </a>
+
+        <img className="col-6" src={resume}></img>
       </div>
     </div>
   );

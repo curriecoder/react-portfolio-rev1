@@ -3,9 +3,9 @@ import avatar from "../assets/images/The-Mask.png";
 
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <header className="header">
+    <header className="header container">
       <div className="row align-items-start">
-        <div className="col-10">
+        <div className="col-md-10 col-2">
           <ul className="nav nav-tabs">
             <li className="nav-item">
               <a
@@ -57,7 +57,6 @@ export default function NavTabs({ currentPage, handlePageChange }) {
         <div className="col-2">
           <div className="header-nameAvatar">
             <img className="avatar-img" src={avatar} alt="avatar image" />
-            <p className="header-name">by CurrieCoder</p>
           </div>
         </div>
       </div>

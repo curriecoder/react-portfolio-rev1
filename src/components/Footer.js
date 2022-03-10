@@ -1,7 +1,7 @@
 import React from "react";
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer fixed-bottom">
       <div className="container">
         <div className="row justify-content-center">
         <ul className="footer-list  d-md-inline-flex">
