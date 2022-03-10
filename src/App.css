@@ -73,13 +73,13 @@ a:hover{
   border: none;
   box-shadow: none;
   background-color: var(--textColor);
-  height: 20rem;
+  height: auto;
   width: 30rem;
   transition-duration: 2s;
 }
 
 .card:hover{
-  height: 22rem;
+  height: auto;
   width: 33rem;
   box-shadow: 10px 17px 5px rgba(47, 62, 79, 0.774);
 }

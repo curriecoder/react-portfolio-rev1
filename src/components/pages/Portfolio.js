@@ -23,11 +23,14 @@ export default function Portfolio() {
           >
             <img className="card-img" src={chessmate} alt="chessmate image" />
           </a>
-          <div className="card-body rounded-bottom">
+          <div className="card-body rounded-bottom p-2">
             <p className="card-text">
               Chessmate - An online chess trainer with high level games, AI
               opponent, and chess resources in one stop.
-              <br />
+              <h5 className="card-text my-2">Stack</h5>
+              <p className="card-text">
+                HTML, CSS, JavaScript, React, Bootstrap, Git
+              </p>
               <a
                 href="https://github.com/curriecoder/Chessmate"
                 target="_blank"
@@ -46,16 +49,16 @@ export default function Portfolio() {
             target="_blank"
             rel="noreferrer"
           >
-            <img
-              className="card-img rounded-top"
-              src={getToWork}
-              alt="get-to-work image"
-            />
+            <img className="card-img" src={getToWork} alt="get-to-work image" />
           </a>
-          <div className="card-body rounded-bottom">
+          <div className="card-body rounded-bottom p-2">
             <p className="card-text">
-              Get to Work - A simple app to collaborate with team mates and manage time online.
-              <br />
+              Get to Work - A simple app to collaborate with team mates and
+              manage time online.
+              <h5 className="card-text my-2">Stack</h5>
+              <p className="card-text">
+                HTML, CSS, JavaScript, Handlebars, Day.js, Materialize, Git
+              </p>
               <a
                 href="https://github.com/curriecoder/project-management-application"
                 target="_blank"
@@ -75,15 +78,19 @@ export default function Portfolio() {
             rel="noreferrer"
           >
             <img
-              className="card-img rounded-top"
+              className="card-img"
               src={codeQuiz}
               alt="code-quiz image"
             />
           </a>
-          <div className="card-body rounded-bottom">
+          <div className="card-body rounded-bottom p-2">
             <p className="card-text">
-              Code Quiz - An online quiz application built with pure JavaScript about JavaScript!
-              <br />
+              Code Quiz - An online quiz application built with pure JavaScript
+              about JavaScript!
+              <h5 className="card-text my-2">Stack</h5>
+              <p className="card-text">
+                HTML, CSS, JavaScript, Git
+              </p>
               <a
                 href="https://github.com/curriecoder/code-quiz"
                 target="_blank"
@@ -103,15 +110,19 @@ export default function Portfolio() {
             rel="noreferrer"
           >
             <img
-              className="card-img rounded-top"
+              className="card-img"
               src={weatherForecast}
               alt="weather-dashboard image"
             />
           </a>
-          <div className="card-body rounded-bottom">
+          <div className="card-body rounded-bottom p-2">
             <p className="card-text">
-              Weather Dashboard - An elegant interface for quickly finding weather and five-day forecast info-graphics.
-              <br />
+              Weather Dashboard - An elegant interface for quickly finding
+              weather and five-day forecast info-graphics.
+              <h5 className="card-text my-2">Stack</h5>
+              <p className="card-text">
+                HTML, CSS, JavaScript, jQuery, Bootstrap, Git, Openweather API
+              </p>
               <a
                 href="https://github.com/curriecoder/weather-dashboard"
                 target="_blank"
@@ -131,16 +142,20 @@ export default function Portfolio() {
             rel="noreferrer"
           >
             <img
-              className="card-img rounded-top"
+              className="card-img"
               src={packRat}
               alt="pack-rat image"
             />
           </a>
 
-          <div className="card-body rounded-bottom">
+          <div className="card-body rounded-bottom p-2">
             <p className="card-text">
-              Pack Rat - This project allows users to view national parks, see satellite imagery of the location, and weather.
-              <br />
+              Pack Rat - This project allows users to view national parks, see
+              satellite imagery of the location, and weather.
+              <h5 className="card-text my-2">Stack</h5>
+              <p className="card-text">
+                HTML, CSS, JavaScript, Bulma, Git, NASA API, NPS API, Openweather API
+              </p>
               <a
                 href="https://github.com/curriecoder/Pack-Rat"
                 target="_blank"
@@ -160,15 +175,19 @@ export default function Portfolio() {
             rel="noreferrer"
           >
             <img
-              className="card-img rounded-top"
+              className="card-img"
               src={budgetTracker}
               alt="pwa-budget-tracker image"
             />
           </a>
-          <div className="card-body rounded-bottom">
+          <div className="card-body rounded-bottom p-2">
             <p className="card-text">
-              PWA Budget Tracker - Online or offline, this budget tracker enables any expense to be tracked.
-              <br />
+              PWA Budget Tracker - Online or offline, this budget tracker
+              enables any expense to be tracked.
+              <h5 className="card-text my-2">Stack</h5>
+              <p className="card-text">
+                HTML, CSS, JavaScript, Service Worker, Manifest, X-icon, Git
+              </p>
               <a
                 href="https://github.com/curriecoder/online-offline-budget-tracker"
                 target="_blank"
