@@ -4,7 +4,7 @@ export default function Footer() {
     <footer className="footer fixed-bottom">
       <div className="container">
         <div className="row justify-content-center">
-        <ul className="footer-list  d-md-inline-flex">
+        <ul className="footer-list p-2 d-md-inline-flex">
           <li className="footer-item">555-555-5555</li>
           <li className="footer-item">
             <a
