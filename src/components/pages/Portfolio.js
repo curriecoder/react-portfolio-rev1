@@ -17,7 +17,7 @@ export default function Portfolio() {
         <div className="card col-4 mb-5">
           <a
             className="rounded-top"
-            href="https://mighty-ravine-90150.herokuapp.com/"
+            href="https://chessmate-penn.herokuapp.com/"
             target="_blank"
             rel="noreferrer"
           >
